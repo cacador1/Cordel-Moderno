@@ -18,31 +18,31 @@
 }
 
 header{
-
+    color: white;
     background-color: black;
-
+    text-align: center;
 }
 header h1{
     font-weight: 300;
     font-family: var(--fonte2);
     font-size: 10vw;
     padding-top: 50px;
-    text-align: center;
-    color: white;
+    font-variant: small-caps
 }
 header p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.2em;
     padding-bottom: 50px;
     padding-top: 10px;
-    text-align: center;
-    color: white;
+    
+    
 }
-header a{
+a{
+    font-weight: bolder;
     color: white;
     text-decoration: none;
 }
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 section{
@@ -76,10 +76,11 @@ section#img01{
     font-size: 3.5vw;
 }
 .imagem p{
-    display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.514);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.253);
     text-shadow: 1px 1px 0px black;
+    width: 3;
     color: white;
     
 }
@@ -87,19 +88,10 @@ section#img02{
     background-image: url(../imagens/background002.jpg);
 }
 footer{
-    font-weight: 400;
     font-family: var(--fonte1);
     font-size: 1em;
     padding: 10px;
     text-align: center;
     color: white;
     background-color: black;
-}
-footer a{
-    font-weight: bolder;
-    color: white;
-    text-decoration: none;
-}
-footer a:hover{
-    text-decoration: underline;
 }
